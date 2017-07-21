@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="http-print-service_2.12"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170714151220"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.2" status="release" pubdate="20170413101812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.pom"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3553181" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.2/scala-reflect-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413101911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="2.12.2"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="C:\Users\Sascha\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-web-scala_2.12">
+			<revision name="3.4.1" status="release" pubdate="20170315153113" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="24677" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-web-scala_2.12\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-web-scala_2.12/3.4.1/vertx-web-scala_2.12-3.4.1.pom"/>
+				<caller organisation="default" name="http-print-service_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="vertx-web-scala_2.12" type="jar" ext="jar" status="no" details="" size="155577" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-web-scala_2.12\jars\vertx-web-scala_2.12-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-web-scala_2.12/3.4.1/vertx-web-scala_2.12-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-lang-scala_2.12">
+			<revision name="3.4.1" status="release" pubdate="20170315152608" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="24057" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-lang-scala_2.12\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-lang-scala_2.12/3.4.1/vertx-lang-scala_2.12-3.4.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web-scala_2.12" conf="default, compile, runtime, master" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="vertx-lang-scala_2.12" type="jar" ext="jar" status="no" details="" size="485414" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-lang-scala_2.12\jars\vertx-lang-scala_2.12-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-lang-scala_2.12/3.4.1/vertx-lang-scala_2.12-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-web">
+			<revision name="3.4.1" status="release" pubdate="20170315145314" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="27656" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-web\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-web/3.4.1/vertx-web-3.4.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web-scala_2.12" conf="default, compile, runtime, master" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="vertx-web" type="jar" ext="jar" status="no" details="" size="479665" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-web\jars\vertx-web-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-web/3.4.1/vertx-web-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-auth-common">
+			<revision name="3.4.1" status="release" pubdate="20170315145143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="26525" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-auth-common\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-auth-common/3.4.1/vertx-auth-common-3.4.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-web" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="vertx-auth-common" type="jar" ext="jar" status="no" details="" size="24094" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-auth-common\jars\vertx-auth-common-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-auth-common/3.4.1/vertx-auth-common-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-core">
+			<revision name="3.4.1" status="release" pubdate="20170315144659" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="25634" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-core\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-core/3.4.1/vertx-core-3.4.1.pom"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<caller organisation="io.vertx" name="vertx-auth-common" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<caller organisation="io.vertx" name="vertx-web" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="vertx-core" type="jar" ext="jar" status="no" details="" size="1051150" time="0" location="C:\Users\Sascha\.ivy2\cache\io.vertx\vertx-core\jars\vertx-core-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-core/3.4.1/vertx-core-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.7.4" status="release" pubdate="20160429174620" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7901" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1204187" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.7.0" status="release" pubdate="20160110064704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6822" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="2.7.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="50894" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.7.4" status="release" pubdate="20160429022716" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7277" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="2.7.4"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="253001" time="0" location="C:\Users\Sascha\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver-dns">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130153034" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16921" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-resolver-dns\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver-dns/4.1.8.Final/netty-resolver-dns-4.1.8.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="netty-resolver-dns" type="jar" ext="jar" status="no" details="" size="71417" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-resolver-dns\jars\netty-resolver-dns-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver-dns/4.1.8.Final/netty-resolver-dns-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-dns">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152545" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16614" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-dns\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-dns/4.1.8.Final/netty-codec-dns-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-dns" type="jar" ext="jar" status="no" details="" size="54582" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-dns\jars\netty-codec-dns-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-dns/4.1.8.Final/netty-codec-dns-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16860" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-http2\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="jar" ext="jar" status="no" details="" size="363516" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-http2\jars\netty-codec-http2-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.8.Final/netty-codec-http2-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130153140" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16906" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-handler-proxy\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="jar" ext="jar" status="no" details="" size="20449" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-handler-proxy\jars\netty-handler-proxy-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.8.Final/netty-handler-proxy-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152803" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16715" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-http\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="jar" ext="jar" status="no" details="" size="544881" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.8.Final/netty-codec-http-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152941" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16473" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-socks\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="jar" ext="jar" status="no" details="" size="120136" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec-socks\jars\netty-codec-socks-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.8.Final/netty-codec-socks-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17471" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-handler\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-handler" type="jar" ext="jar" status="no" details="" size="331924" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.8.Final/netty-handler-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17802" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-codec" type="jar" ext="jar" status="no" details="" size="308818" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16618" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-transport\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-codec" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-transport" type="jar" ext="jar" status="no" details="" size="427426" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152349" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16468" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-resolver\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="jar" ext="jar" status="no" details="" size="29692" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-resolver\jars\netty-resolver-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152324" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16464" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-buffer\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="jar" ext="jar" status="no" details="" size="259095" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.8.Final" status="release" pubdate="20170130152002" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19032" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-common\ivy-4.1.8.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.pom"/>
+				<caller organisation="io.netty" name="netty-buffer" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.netty" name="netty-resolver" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="4.1.8.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.8.Final" rev-constraint-default="4.1.8.Final" rev-constraint-dynamic="4.1.8.Final" callerrev="3.4.1"/>
+				<artifacts>
+					<artifact name="netty-common" type="jar" ext="jar" status="no" details="" size="695998" time="0" location="C:\Users\Sascha\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.1.8.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
